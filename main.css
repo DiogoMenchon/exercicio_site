@@ -143,7 +143,7 @@ textarea {
 
 footer {
     background-color: #5c7dd6;
-    color: #f0f0f0;
+    color: #000000;
     padding: 16px 0;
 }
 
@@ -171,4 +171,26 @@ footer {
 
 .text-content{
     flex: 1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-column {
+    white-space: nowrap; 
+}
+
+.left-column h3 {
+    margin-top: 20px;
+    font-weight: normal;
 }
